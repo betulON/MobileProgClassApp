@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".AddQuestionActivity">
+
+
+    <LinearLayout
+        android:id="@+id/menu_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#516173"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="EDIT QUESTION"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editTextQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="25dp"
+                android:background="#28B5B5B5"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:textSize="16dp"
+                android:padding="14dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="18dp"
+            android:text="EDIT OPTIONS" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14dp"
+            android:text="(Check the checkbox for the correct answer)" />
+
+        <LinearLayout
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="1dp"
+                android:background="#FAFAFA"
+                android:padding="2dp"
+                android:layout_weight="5"/>
+
+            <EditText
+                android:id="@+id/editTextOption1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#e9e7e7"
+                android:textSize="16dp"
+                android:hint="  Option 1"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:background="#FAFAFA"
+                android:layout_weight="5"/>
+
+            <EditText
+                android:id="@+id/editTextOption2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="1dp"
+                android:background="#e9e7e7"
+                android:textSize="16dp"
+                android:hint="  Option 2"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:background="#FAFAFA"
+                android:layout_weight="5"/>
+
+            <EditText
+                android:id="@+id/editTextOption3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:background="#e9e7e7"
+                android:textSize="16dp"
+                android:hint="  Option 3"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:background="#FAFAFA"
+                android:layout_weight="5"/>
+
+            <EditText
+                android:id="@+id/editTextOption4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:background="#e9e7e7"
+                android:hint="  Option 4"
+                android:textSize="16dp"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/option5"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center"
+                android:background="#FAFAFA"
+                android:layout_weight="5"/>
+
+            <EditText
+                android:id="@+id/editTextOption5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="1dp"
+                android:background="#e9e7e7"
+                android:hint="  Option 5"
+                android:textSize="16dp"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutAttachment"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="#E3E3E3"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/imageButtonAttachment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="9"
+                android:background="#606060"
+                android:padding="5dp"
+                android:src="@drawable/ic_attach" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/buttonsReturnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/imageButtonReturn"
+                android:layout_width="10dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="80dp"
+                android:layout_weight="0.5"
+                android:padding="15dp"
+                android:src="@drawable/ic_return"
+                android:background="#606060"/>
+
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:padding="10dp"
+                android:text="SAVE"
+                android:textSize="14dp"
+                android:backgroundTint="#516173" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

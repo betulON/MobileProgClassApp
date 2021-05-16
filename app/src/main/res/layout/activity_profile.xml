@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E1E1E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#939393">
+
+
+        <LinearLayout
+            android:id="@+id/menu_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#DDDDDD"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profileActivityImage"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/alpha_universe_cropped_2"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#E2E3E6"
+                android:padding="12dp"
+                android:fontFamily="sans-serif-medium"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/textViewSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:background="#C3C4CC"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:padding="12dp"
+                android:background="#E2E3E6"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:background="#C3C4CC"
+                android:padding="12dp"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:padding="12dp"
+                android:background="#E2E3E6"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+
+
+
+
+
+            <Button
+                android:id="@+id/profileReturnButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="14dp"
+                android:backgroundTint="#7D8093"
+                android:textSize="18dp"
+                android:text="RETURN" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
